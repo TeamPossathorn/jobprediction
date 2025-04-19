@@ -1,4 +1,0 @@
-streamlit
-requests
-pyspark==3.4.1
-
