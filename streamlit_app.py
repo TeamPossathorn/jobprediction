@@ -9,7 +9,7 @@ from pyspark.ml import PipelineModel
 spark = SparkSession.builder.appName("JobTitlePredictor").getOrCreate()
 
 # Download model zip from GitHub
-MODEL_URL = "https://github.com/TeamPossathorn/jobprediction/raw/main/job_title_classification_model.zip"
+MODEL_URL = "https://github.com/TeamPossathorn/jobprediction/job_title_classification_model.zip"
 MODEL_DIR = "job_title_classification_model"
 ZIP_PATH = "model.zip"
 
