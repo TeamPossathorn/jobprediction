@@ -11,7 +11,7 @@ PROJECT_ID = "big-data-computing-457211"
 BUCKET_NAME = "job-title-predict-bucket"
 INPUT_PATH = "job-description-inputs"
 OUTPUT_PATH = "job-results"
-DATAPROC_CLUSTER = "cluster1"
+DATAPROC_CLUSTER = "streamcluster"
 REGION = "us-central1"
 PYSPARK_SCRIPT_GCS = f"gs://{BUCKET_NAME}/job_predict.py"
 
